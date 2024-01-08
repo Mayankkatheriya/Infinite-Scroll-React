@@ -1,6 +1,6 @@
 import React from "react";
 
-const Searchbar = ({ textInput, onChange }) => {
+const Searchbar = ({ textInput, onChange, onClick }) => {
   return (
     <section className="inputs">
       <div className="serach-bar">
@@ -11,7 +11,7 @@ const Searchbar = ({ textInput, onChange }) => {
           placeholder="What are you looking for?"
           onChange={onChange}
         />
-        <button type="submit" className="searchButton">
+        <button type="submit" className="searchButton" onClick={onClick}>
           <i className="fa fa-search"></i>
         </button>
       </div>

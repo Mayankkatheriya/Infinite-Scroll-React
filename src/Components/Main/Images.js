@@ -15,8 +15,6 @@ const Images = ({ data }) => {
               <img src={item.urls.regular} alt={item.alt_description} />
             </a>
             <div className="details">
-              <h3>{item.user.name}</h3>
-              <p>{item.description}</p>
               <div className="detail-inner-div">
                 <p>{item.created_at}</p>
                 <a
@@ -28,6 +26,8 @@ const Images = ({ data }) => {
                   <i className="fa-solid fa-download"></i>
                 </a>
               </div>
+              <h3>{item.user.name}</h3>
+              <p>{item.user.bio}</p>
             </div>
           </div>
         );
