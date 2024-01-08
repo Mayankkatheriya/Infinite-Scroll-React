@@ -42,7 +42,6 @@ const Main = () => {
 
   //Todo Function to fetch data using search query
   const fetchSearchData = async (query) => {
-    // const searchUrl = `https://api.unsplash.com/search/collections?page=1&per_page=20&query=${query}&client_id=${apiKey}`;
     const searchUrl = `https://api.unsplash.com/search/photos/?page=1&query=${query}&client_id=${apiKey}&per_page=30`
 
     try {
