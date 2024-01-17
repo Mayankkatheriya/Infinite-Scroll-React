@@ -1,6 +1,10 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
+  "author": {
+    "name": "Mayank Gupta",
+    "email": "mayankkatheriya4@gmail.com"
+  },
   "icons": [
     {
       "src": "favicon.ico",
